@@ -1,0 +1,237 @@
+/* General body styling */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for page content */
+.container {
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 32px 24px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+/* Section spacing */
+main section {
+    margin-bottom: 4px;
+}
+
+/* Header styling */
+#main-header {
+    background-color: #222e3c;
+    color: #fff;
+    padding: 32px 0 16px 0;
+    text-align: center;
+    border-bottom: 4px solid #0078d7;
+}
+
+#main-header img {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 120px;
+    height: auto;
+}
+
+#main-header h1 {
+    color: #222e3c;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: #90a4ae;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Navigation bar styling */
+#navbar {
+    color: #fff;
+    padding: 0px 0;
+    border-bottom: 2px solid #0078d7;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#navbar .container {
+    padding: 0;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 10px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 18px;
+    border-radius: 4px;
+    background: #0078d7;
+    border: none;
+    transition: background 0.2s, color 0.2s;
+    display: inline-block;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:focus {
+    background-color: #005fa3;
+    color: #fff;
+}
+
+/* Section headings */
+h2 {
+    color: #0078d7;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+/* List styling */
+ul {
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Form styling */
+form {
+    background: #f9f9f9;
+    padding: 28px 24px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #222e3c;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background: #fff;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+form button {
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 8px;
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button:hover,
+form button:focus {
+    background-color: #005fa3;
+}
+
+/* Footer styling */
+#main-footer {
+    background-color: #222e3c;
+    color: #fff;
+    text-align: center;
+    padding: 24px 0 16px 0;
+    border-top: 4px solid #0078d7;
+    margin-top: 32px;
+    border-radius: 0 0 12px 12px;
+}
+
+#main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#main-footer p {
+    color: #222e3c;
+    margin: 0 0 8px 0;
+    font-size: 1em;
+    text-align: left;
+    flex: 1 1 auto;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+}
+
+.social-links li {
+    margin: 0 8px;
+}
+
+.social-links a {
+    display: inline-block;
+    background: #0078d7;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 8px 6px;
+    transition: background 0.2s, color 0.2s;
+    border: none;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    background: #005fa3;
+    color: #fff;
+    text-decoration: underline;
+}
